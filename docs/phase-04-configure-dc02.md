@@ -122,16 +122,7 @@ repadmin /syncall /AdeP
 
 | # | Caption | Asset path |
 |---|---|---|
-| [19](../assets/screenshots/screenshot-19.png) | Server Manager computer rename to DC02 | `assets/screenshots/screenshot-19.png` |
-| [20](../assets/screenshots/screenshot-20.png) | DC02 IPv4 static configuration (192.168.10.11, DNS 192.168.10.10) | `assets/screenshots/screenshot-20.png` |
-| [21](../assets/screenshots/screenshot-21.png) | `ping` and `nslookup` from DC02 to DC01 | `assets/screenshots/screenshot-21.png` |
-| [22](../assets/screenshots/screenshot-22.png) | System Properties — joining ad.beginningdimension.com | `assets/screenshots/screenshot-22.png` |
-| [23](../assets/screenshots/screenshot-23.png) | "Welcome to the domain" confirmation prompt | `assets/screenshots/screenshot-23.png` |
-| [24](../assets/screenshots/screenshot-24.png) | AD DS and DNS Server role installation on DC02 | `assets/screenshots/screenshot-24.png` |
-| [25](../assets/screenshots/screenshot-25.png) | Promotion — Add a domain controller to an existing domain | `assets/screenshots/screenshot-25.png` |
-| [26](../assets/screenshots/screenshot-26.png) | DC02 Domain Controller Options — DNS Server, Global Catalog, DSRM | `assets/screenshots/screenshot-26.png` |
-| [27](../assets/screenshots/screenshot-27.png) | `repadmin /replsummary` healthy replication with cross-pointed DNS | `assets/screenshots/screenshot-27.png` |
-
+Please see the screenshots in docs/screenshots/Phase 4
 Full mapping: [Evidence Index](evidence-index.md#phase-4--configure-dc02).
 
 ## References
