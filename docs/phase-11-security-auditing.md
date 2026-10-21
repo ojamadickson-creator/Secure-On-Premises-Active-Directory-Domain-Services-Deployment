@@ -70,7 +70,7 @@ When configuring subcategories directly, the following matrix maps the categorie
 subcategories and the events they generate (recommended configuration — verify against your
 requirements and Microsoft's per-event documentation):
 
-| Category (source guide) | Key subcategories | Success/Failure | Representative events |
+| Category | Key subcategories | Success/Failure | Representative events |
 |---|---|---|---|
 | Account Logon | Credential Validation; Kerberos Authentication Service; Kerberos Service Ticket Operations | Success and Failure | 4776, 4771, 4769 |
 | Account Management | User Account Management; Security Group Management; Computer Account Management | Success and Failure | 4720, 4740, 4728/4732/4756 |
