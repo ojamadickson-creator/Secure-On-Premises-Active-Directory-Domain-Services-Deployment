@@ -1,9 +1,7 @@
 # Phase 9 — Group Policy Security Baseline
 
 > Phase series: [Phase 1](phase-01-configure-dc01.md) · [Phase 2](phase-02-install-ad-ds-dns-dc01.md) · [Phase 3](phase-03-configure-ad-dns.md) · [Phase 4](phase-04-configure-dc02.md) · [Phase 5](phase-05-ad-site-topology.md) · [Phase 6](phase-06-organizational-units.md) · [Phase 7](phase-07-users-groups-delegation.md) · [Phase 8](phase-08-join-client01.md) · [Phase 9](phase-09-gpo-security-baseline.md) · [Phase 10](phase-10-windows-laps.md) · [Phase 11](phase-11-security-auditing.md) · [Phase 12](phase-12-backup-recovery.md) · [Phase 13](phase-13-health-checks.md)
-> Source: Active Directory Project Guide (compiled 25-page guide), pages 15–16, plus the
-> Workstation Baseline Group Policy Paths reference (GPME configuration paths).
-
+> 
 ## Objective & Scope
 
 Design and deploy the Group Policy security baseline: domain-wide password and lockout policy,
@@ -110,12 +108,7 @@ Paths reference):
 
 | # | Caption | Asset path |
 |---|---|---|
-| [48](../assets/screenshots/screenshot-48.png) | Group Policy Management showing the six-GPO baseline design | `assets/screenshots/screenshot-48.png` |
-| [49](../assets/screenshots/screenshot-49.png) | Default Domain Policy — password policy settings | `assets/screenshots/screenshot-49.png` |
-| [50](../assets/screenshots/screenshot-50.png) | Account lockout policy settings in Default Domain Policy | `assets/screenshots/screenshot-50.png` |
-| [51](../assets/screenshots/screenshot-51.png) | Sec-Workstation-Baseline — Defender and Firewall settings | `assets/screenshots/screenshot-51.png` |
-| [52](../assets/screenshots/screenshot-52.png) | Sec-DomainControllers-Baseline linked to the Domain Controllers OU | `assets/screenshots/screenshot-52.png` |
-| [53](../assets/screenshots/screenshot-53.png) | `gpresult /r` on CLIENT01 showing applied baseline GPOs | `assets/screenshots/screenshot-53.png` |
+See screenshots | | docs/screenshots/Phase 9 |
 
 Full mapping: [Evidence Index](evidence-index.md#phase-9--group-policy-security-baseline).
 
