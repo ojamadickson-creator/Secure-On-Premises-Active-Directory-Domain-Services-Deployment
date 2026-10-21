@@ -74,12 +74,7 @@ domain-controller discovery, authentication, and related directory functions.
 
 | # | Caption | Asset path |
 |---|---|---|
-| [13](../assets/screenshots/screenshot-13.png) | DNS Manager Forwarders tab with 1.1.1.1 and 8.8.8.8 | `assets/screenshots/screenshot-13.png` |
-| [14](../assets/screenshots/screenshot-14.png) | New Zone wizard — reverse lookup primary zone | `assets/screenshots/screenshot-14.png` |
-| [15](../assets/screenshots/screenshot-15.png) | AD-integrated zone replication scope selection | `assets/screenshots/screenshot-15.png` |
-| [16](../assets/screenshots/screenshot-16.png) | IPv4 Reverse Lookup Zone 192.168.10 with secure dynamic updates | `assets/screenshots/screenshot-16.png` |
-| [17](../assets/screenshots/screenshot-17.png) | `nslookup -type=SRV` query output locating DC01 | `assets/screenshots/screenshot-17.png` |
-| [18](../assets/screenshots/screenshot-18.png) | `dcdiag /test:dns` passing all critical tests | `assets/screenshots/screenshot-18.png` |
+| See Docs/screenshots/Phase 3 for screenshots.
 
 Full mapping: [Evidence Index](evidence-index.md#phase-3--configure-ad-dns).
 
