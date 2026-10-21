@@ -39,15 +39,15 @@ diagnosed and resolved methodically. Every incident, root cause, and fix is docu
 | Subnet | `192.168.10.0/24` |
 | Reverse DNS zone | `10.168.192.in-addr.arpa` |
 | Domain controllers | DC01 (192.168.10.10), DC02 (192.168.10.11) — both Global Catalog |
-| Client | CLIENT01 (192.168.10.20), Windows 11 Pro/Enterprise |
-| Gateway / firewall | OPNsense router at 192.168.10.1 (NAT, default gateway) |
+| Client | CLIENT01 (192.168.10.20), Windows 11 Enterprise |
+| Gateway | router at 192.168.10.1 (NAT, default gateway) |
 | Hypervisor | VirtualBox — VM appliance exports (`.ova`) used for point-in-time DC backups |
 | Client DNS | 192.168.10.10 (preferred), 192.168.10.11 (alternate) |
 
 ```text
 Internet
    |
-Router / Firewall (OPNsense)
+Router
 192.168.10.1
    |
 ------------------------------------------------
