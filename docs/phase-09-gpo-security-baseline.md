@@ -76,8 +76,7 @@ Create and link `Sec-Workstation-Baseline` to the **Workstations** OU. Initially
 - Local administrator use restricted.
 - Baseline audit policy enabled.
 
-GPME configuration paths for these controls (from the lab's Workstation Baseline Group Policy
-Paths reference):
+Configuration paths for these controls
 
 | Control | GPME path | What to configure |
 |---|---|---|
