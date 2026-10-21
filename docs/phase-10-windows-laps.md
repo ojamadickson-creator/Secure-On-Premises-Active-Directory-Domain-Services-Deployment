@@ -1,8 +1,7 @@
 # Phase 10 — Deploy Windows LAPS
 
 > Phase series: [Phase 1](phase-01-configure-dc01.md) · [Phase 2](phase-02-install-ad-ds-dns-dc01.md) · [Phase 3](phase-03-configure-ad-dns.md) · [Phase 4](phase-04-configure-dc02.md) · [Phase 5](phase-05-ad-site-topology.md) · [Phase 6](phase-06-organizational-units.md) · [Phase 7](phase-07-users-groups-delegation.md) · [Phase 8](phase-08-join-client01.md) · [Phase 9](phase-09-gpo-security-baseline.md) · [Phase 10](phase-10-windows-laps.md) · [Phase 11](phase-11-security-auditing.md) · [Phase 12](phase-12-backup-recovery.md) · [Phase 13](phase-13-health-checks.md)
-> Source: Active Directory Project Guide (compiled 25-page guide), pages 16–17, plus the Phase 10
-> Pre-Deployment Execution Guide (LAPS forest-level change record & backup procedure).
+> 
 
 ## Objective & Scope
 
@@ -188,14 +187,7 @@ Get-LapsADPassword -Identity "CLIENT01" -AsPlainText
 
 | # | Caption | Asset path |
 |---|---|---|
-| [54](../assets/screenshots/screenshot-54.png) | `Update-LapsADSchema` execution and confirmation output | `assets/screenshots/screenshot-54.png` |
-| [55](../assets/screenshots/screenshot-55.png) | `Set-LapsADComputerSelfPermission` output for the Workstations OU | `assets/screenshots/screenshot-55.png` |
-| [56](../assets/screenshots/screenshot-56.png) | `Set-LapsADReadPasswordPermission` output for GG_LAPS_Password_Readers | `assets/screenshots/screenshot-56.png` |
-| [57](../assets/screenshots/screenshot-57.png) | `Cfg-WindowsLAPS` GPO created and linked to the Workstations OU | `assets/screenshots/screenshot-57.png` |
-| [58](../assets/screenshots/screenshot-58.png) | LAPS policy settings — backup directory, length, complexity, age | `assets/screenshots/screenshot-58.png` |
-| [59](../assets/screenshots/screenshot-59.png) | `Get-LapsADPassword` output on CLIENT01 (sanitized, no password shown) | `assets/screenshots/screenshot-59.png` |
-| [60](../assets/screenshots/screenshot-60.png) | Authorized password decryptors configured as GG_LAPS_Password_Readers | `assets/screenshots/screenshot-60.png` |
-
+See screenshots | | docs/screenshots/ Phase 10 |
 Full mapping: [Evidence Index](evidence-index.md#phase-10--deploy-windows-laps).
 
 ## References
