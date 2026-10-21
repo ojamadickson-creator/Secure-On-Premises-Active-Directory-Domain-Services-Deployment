@@ -94,7 +94,7 @@ client service location and replication traffic
 
 ## Implementation Phases
 
-The build is documented as 13 numbered phases, derived from the project guide:
+The build is documented as 13 numbered phases:
 
 | Phase | Document | Focus |
 |---|---|---|
