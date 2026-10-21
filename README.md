@@ -83,16 +83,14 @@ client service location and replication traffic
 | High availability | Replica DC deployment, DNS redundancy, replication monitoring |
 | Group Policy | Password policy, account lockout, baseline policies, OU targeting |
 | Security | Least privilege, admin account separation, Windows LAPS, Protected Users testing, audit policy |
-| Networking | IPv4 addressing, DNS client configuration, AD site/subnet mapping, OPNsense routing |
+| Networking | IPv4 addressing, DNS client configuration, AD site/subnet mapping, routing |
 | Troubleshooting | dcdiag, repadmin, nltest, w32tm, secure-channel repair, lockout investigation |
 | Backup & recovery | System State backups, DSRM awareness, restore planning |
 | Disaster recovery | Daily System State backups with `wbadmin`, documented DSRM credential handling, restore testing in isolated recovery environments, and VirtualBox appliance (`.ova`) exports before forest-level changes |
 | SIEM integration (planned) | Advanced audit policy on domain controllers and key security event IDs, with a documented production path for forwarding DC security logs to a centralized SIEM (Splunk / Microsoft Sentinel) — the lab itself uses Event Viewer |
 | Documentation | Network diagram, implementation steps, validation evidence, security checklist |
 
-Skills and technologies as compiled in the project guide's skills table (guide pages 1–2), with
-VirtualBox appliance backups and the SIEM forwarding path added from the supplementary lab
-records.
+
 
 ## Implementation Phases
 
