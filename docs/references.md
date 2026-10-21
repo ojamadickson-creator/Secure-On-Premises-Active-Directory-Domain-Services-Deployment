@@ -1,10 +1,7 @@
 # References & Documentation
 
-This section contains all formal reference sources from the project guide (pages 22–25 of the
-source document), followed by a curated quick-reference of the core documentation used throughout
-the build. Bibliography URLs were reconstructed from the source document (whose PDF line-wrapping
-split several URLs) and spot-checked against the live pages; entries with line-wrap joins are
-worth re-verifying before formal publication.
+This section contains all formal reference sources from the project followed by a curated quick-reference of the core documentation used throughout
+the build.
 
 ## Full Bibliography (Sources 1–55)
 
