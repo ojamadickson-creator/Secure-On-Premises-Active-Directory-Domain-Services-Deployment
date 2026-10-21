@@ -9,8 +9,7 @@ Model the physical network in Active Directory by creating the HQ site, associat
 awareness on all systems.
 
 **Scope:** AD Sites and Services configuration — site, subnet, DC placement, and site-awareness
-validation. A future branch-office example (192.168.20.0/24 with an intersite link) is documented
-for planning purposes.
+validation. 
 
 ## Topology Plan
 
