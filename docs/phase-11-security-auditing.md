@@ -1,8 +1,7 @@
 # Phase 11 — Security Auditing
 
 > Phase series: [Phase 1](phase-01-configure-dc01.md) · [Phase 2](phase-02-install-ad-ds-dns-dc01.md) · [Phase 3](phase-03-configure-ad-dns.md) · [Phase 4](phase-04-configure-dc02.md) · [Phase 5](phase-05-ad-site-topology.md) · [Phase 6](phase-06-organizational-units.md) · [Phase 7](phase-07-users-groups-delegation.md) · [Phase 8](phase-08-join-client01.md) · [Phase 9](phase-09-gpo-security-baseline.md) · [Phase 10](phase-10-windows-laps.md) · [Phase 11](phase-11-security-auditing.md) · [Phase 12](phase-12-backup-recovery.md) · [Phase 13](phase-13-health-checks.md)
-> Source: Active Directory Project Guide (compiled 25-page guide), pages 18–19.
-
+> 
 ## Objective & Scope
 
 Enable advanced security auditing on the domain controllers: an auditing GPO with success and
@@ -125,10 +124,7 @@ logs to a centralized SIEM such as Splunk or Microsoft Sentinel.
 
 | # | Caption | Asset path |
 |---|---|---|
-| [61](../assets/screenshots/screenshot-61.png) | Creating and linking Sec-DomainControllers-Auditing to the DC OU | `assets/screenshots/screenshot-61.png` |
-| [62](../assets/screenshots/screenshot-62.png) | Advanced Audit Policy categories enabled for Success and Failure | `assets/screenshots/screenshot-62.png` |
-| [63](../assets/screenshots/screenshot-63.png) | "Force audit policy subcategory settings" override enabled | `assets/screenshots/screenshot-63.png` |
-| [64](../assets/screenshots/screenshot-64.png) | Event Viewer Security log showing key event IDs (4625, 4720, 4769) | `assets/screenshots/screenshot-64.png` |
+| See screenshots | | docs/screenshots/Phase 11 |
 
 Full mapping: [Evidence Index](evidence-index.md#phase-11--security-auditing).
 
