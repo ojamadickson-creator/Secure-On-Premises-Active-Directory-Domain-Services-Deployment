@@ -88,24 +88,6 @@ replication connection objects; administrators should define sites, subnets, and
 rather than manually creating replication links in a simple deployment
 ([Microsoft Learn — Active Directory Site Replication](https://learn.microsoft.com/en-us/training/modules/active-directory-site-replication/)).
 
-## Future Branch Office Example
-
-If a branch office is later added on `192.168.20.0/24`, create a second site and configure an
-intersite link:
-
-| Component | HQ | Branch |
-|---|---|---|
-| Site | HQ | Branch01 |
-| Subnet | `192.168.10.0/24` | `192.168.20.0/24` |
-| Domain controller | DC01/DC02 | Optional DC03 |
-| Site link | HQ-Branch01-Link | HQ-Branch01-Link |
-| Link cost | 100 | 100 |
-| Replication interval | Default or planned WAN interval | Default or planned WAN interval |
-
-Site links describe logical paths that AD uses for intersite replication; they can define cost,
-schedule, and replication frequency
-([Microsoft Learn — Understanding Active Directory Site Topology](https://learn.microsoft.com/en-us/windows-server/identity/ad-ds/plan/understanding-active-directory-site-topology),
-[Microsoft Learn — Active Directory Site Replication](https://learn.microsoft.com/en-us/training/modules/active-directory-site-replication/)).
 
 ## Validation
 
@@ -118,11 +100,7 @@ schedule, and replication frequency
 
 | # | Caption | Asset path |
 |---|---|---|
-| [28](../assets/screenshots/screenshot-28.png) | Active Directory Sites and Services — New Site HQ | `assets/screenshots/screenshot-28.png` |
-| [29](../assets/screenshots/screenshot-29.png) | New Subnet 192.168.10.0/24 associated with HQ | `assets/screenshots/screenshot-29.png` |
-| [30](../assets/screenshots/screenshot-30.png) | Moving DC01 from Default-First-Site-Name to HQ | `assets/screenshots/screenshot-30.png` |
-| [31](../assets/screenshots/screenshot-31.png) | HQ site containing DC01 and DC02 | `assets/screenshots/screenshot-31.png` |
-| [32](../assets/screenshots/screenshot-32.png) | `nltest /dsgetsite` returning HQ on all systems | `assets/screenshots/screenshot-32.png` |
+See the screenshots | | docs/screenshots/Phase 5 |
 
 Full mapping: [Evidence Index](evidence-index.md#phase-5--configure-ad-site-topology).
 
