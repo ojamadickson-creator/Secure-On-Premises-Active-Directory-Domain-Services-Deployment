@@ -1,7 +1,7 @@
 # Phase 8 — Join CLIENT01 to the Domain
 
 > Phase series: [Phase 1](phase-01-configure-dc01.md) · [Phase 2](phase-02-install-ad-ds-dns-dc01.md) · [Phase 3](phase-03-configure-ad-dns.md) · [Phase 4](phase-04-configure-dc02.md) · [Phase 5](phase-05-ad-site-topology.md) · [Phase 6](phase-06-organizational-units.md) · [Phase 7](phase-07-users-groups-delegation.md) · [Phase 8](phase-08-join-client01.md) · [Phase 9](phase-09-gpo-security-baseline.md) · [Phase 10](phase-10-windows-laps.md) · [Phase 11](phase-11-security-auditing.md) · [Phase 12](phase-12-backup-recovery.md) · [Phase 13](phase-13-health-checks.md)
-> Source: Active Directory Project Guide (compiled 25-page guide), page 14.
+> 
 
 ## Objective & Scope
 
@@ -79,11 +79,7 @@ Move CLIENT01 from the default location, if needed, into:
 
 | # | Caption | Asset path |
 |---|---|---|
-| [43](../assets/screenshots/screenshot-43.png) | CLIENT01 IPv4 configuration pointing at DC01/DC02 DNS | `assets/screenshots/screenshot-43.png` |
-| [44](../assets/screenshots/screenshot-44.png) | Domain join dialog with credentials for ad.beginningdimension.com | `assets/screenshots/screenshot-44.png` |
-| [45](../assets/screenshots/screenshot-45.png) | Sign-in as BEGINNINGDIM\jdoe with `whoami` output | `assets/screenshots/screenshot-45.png` |
-| [46](../assets/screenshots/screenshot-46.png) | `nltest /dsgetdc:` and `%logonserver%` validation output | `assets/screenshots/screenshot-46.png` |
-| [47](../assets/screenshots/screenshot-47.png) | CLIENT01 computer object in the Workstations OU with `gpresult /r` | `assets/screenshots/screenshot-47.png` |
+See Screenshots | | docs/screenshots/Phase 8 |
 
 Full mapping: [Evidence Index](evidence-index.md#phase-8--join-client01-to-the-domain).
 
