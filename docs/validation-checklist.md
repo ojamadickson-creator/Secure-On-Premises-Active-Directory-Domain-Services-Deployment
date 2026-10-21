@@ -5,7 +5,7 @@ implementation procedures documented in [Phases 1–13](phase-01-configure-dc01.
 confirm the environment at the end of the build — items are intentionally left unchecked for use
 as a working checklist.
 
-> Source: derived from the Active Directory Project Guide implementation phases (guide pages 1–21).
+> 
 
 ## Core Infrastructure
 
