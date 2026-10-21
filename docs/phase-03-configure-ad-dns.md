@@ -30,7 +30,7 @@ records.
    - `8.8.8.8`
 7. Select **OK**, then **Apply**.
 
-> **Lab note:** Do not add the lab gateway (`192.168.10.1`) as a forwarder. An OPNsense/router
+> **Lab note:** Do not add the lab gateway (`192.168.10.1`) as a forwarder. A router
 > interface that is not acting as an active recursive DNS listener will time out and show a red
 > cross in DNS Manager — this exact issue was diagnosed and resolved during the build
 > ([Incident 02](troubleshooting-log.md#incident-02--dns-forwarder-gateway-timeout-192168101)).
