@@ -83,14 +83,7 @@ DNS zone configuration and validation are covered in [Phase 3](phase-03-configur
 
 | # | Caption | Asset path |
 |---|---|---|
-| [06](../assets/screenshots/screenshot-06.png) | Add Roles and Features — AD DS role selection on DC01 | `assets/screenshots/screenshot-06.png` |
-| [07](../assets/screenshots/screenshot-07.png) | DNS Server role selection with Add Features prompt | `assets/screenshots/screenshot-07.png` |
-| [08](../assets/screenshots/screenshot-08.png) | Installation progress and confirmation page | `assets/screenshots/screenshot-08.png` |
-| [09](../assets/screenshots/screenshot-09.png) | Server Manager notification flag — Promote this server to a domain controller | `assets/screenshots/screenshot-09.png` |
-| [10](../assets/screenshots/screenshot-10.png) | Deployment Configuration — Add a new forest, ad.beginningdimension.com | `assets/screenshots/screenshot-10.png` |
-| [11](../assets/screenshots/screenshot-11.png) | Domain Controller Options — DNS Server, Global Catalog, DSRM password | `assets/screenshots/screenshot-11.png` |
-| [12](../assets/screenshots/screenshot-12.png) | Prerequisites check passed and promotion completed; sign-in as BEGINNINGDIM\Administrator | `assets/screenshots/screenshot-12.png` |
-
+See the screenshots in the screenshot folder. Path. docs/screenshots/Phase 2
 Full mapping: [Evidence Index](evidence-index.md#phase-2--install-ad-ds-and-dns-on-dc01).
 
 ## References
