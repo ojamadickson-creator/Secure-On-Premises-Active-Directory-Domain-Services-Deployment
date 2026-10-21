@@ -118,7 +118,7 @@ Additional documentation:
 |---|---|
 | [Troubleshooting & Issues Encountered](docs/troubleshooting-log.md) | Real incidents, root causes, and resolutions from the build |
 | [Validation Checklist](docs/validation-checklist.md) | Final project validation evidence |
-| [Evidence Index (Screenshots 1–72)](docs/evidence-index.md) | Mapping of all 72 screenshots to phases and steps |
+| [Evidence Index (Screenshots 1–72)](docs/evidence-index.md) | Mapping of all screenshots to phases and steps |
 | [References](docs/references.md) | Official Microsoft documentation, benchmarks, and tool references |
 
 ## Repository Structure
@@ -142,31 +142,24 @@ enterprise-ad-hardening-lab/
 │   ├── phase-13-health-checks.md
 │   ├── troubleshooting-log.md          # Incident log from the build
 │   ├── validation-checklist.md        # Final validation evidence
-│   ├── evidence-index.md              # Screenshots 1–72 mapping
+│   ├── evidence-index.md              # Screenshots mapping
 │   └── references.md                  # Formal bibliography
-└── assets/
-    └── screenshots/                   # Screenshot 1–72 (see evidence-index.md)
+└── screenshots/
+    └── phases 1-12 /                   # Screenshots (see evidence-index.md)
         └── README.md                 # Naming convention and contribution notes
 ```
 
 ## About the Screenshots
 
-The build is documented by 72 numbered screenshots captured during execution. Because the
+The build is documented by 12-phase numbered screenshots captured during execution. Because the
 screenshot files are added to the repository as a batch, each phase document references its
-screenshots by number, caption, and relative path (`assets/screenshots/screenshot-NN.png`). The
-full mapping — screenshot number, phase, step, and caption — lives in the
-[Evidence Index](docs/evidence-index.md), and the file naming convention is defined in
-[assets/screenshots/README.md](assets/screenshots/README.md). The number-to-image mapping is
-proposed from the build sequence and should be confirmed against the actual images when they
-are added. Screenshots are referenced (not hot-embedded) so the repository renders cleanly
-whether the image files are present or still being added.
+screenshots by phases. The full mapping — screenshot number, phase, step, and caption — lives in the
+[Evidence Index](docs/evidence-index.md), 
 
 ## Security & Sanitization Notice
 
 No real passwords, DSRM passwords, LAPS secrets, recovery keys, or confidential information are
-published in this repository. Published screenshots and command output must use lab-only
-addresses (`192.168.10.0/24`) and sanitized output. Recovered LAPS passwords must never be placed
-in documentation, tickets, or screenshots.
+published in this repository. 
 
 ---
 
