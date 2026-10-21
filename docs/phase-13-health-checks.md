@@ -96,14 +96,6 @@ Restart CLIENT01 after a successful repair.
 
 ## Visual Evidence
 
-| # | Caption | Asset path |
-|---|---|---|
-| [68](../assets/screenshots/screenshot-68.png) | `dcdiag /q` clean output on the domain | `assets/screenshots/screenshot-68.png` |
-| [69](../assets/screenshots/screenshot-69.png) | `repadmin /replsummary` with no replication failures | `assets/screenshots/screenshot-69.png` |
-| [70](../assets/screenshots/screenshot-70.png) | `netdom query fsmo` showing all roles on DC01 | `assets/screenshots/screenshot-70.png` |
-| [71](../assets/screenshots/screenshot-71.png) | `w32tm /query /status` on DC01, DC02, and CLIENT01 | `assets/screenshots/screenshot-71.png` |
-| [72](../assets/screenshots/screenshot-72.png) | `Test-ComputerSecureChannel -Repair` and final validation on CLIENT01 | `assets/screenshots/screenshot-72.png` |
-
 Full mapping: [Evidence Index](evidence-index.md#phase-13--health-checks-and-troubleshooting).
 
 ## References
