@@ -15,7 +15,7 @@ time/date verification on DC01.
 ## Prerequisites
 
 - Windows Server 2025 installed and accessible as the local `Administrator` account.
-- The `192.168.10.0/24` network is available and `192.168.10.1` (OPNsense gateway) is confirmed.
+- The `192.168.10.0/24` network is available and `192.168.10.1` (gateway) is confirmed.
 - Before proceeding, confirm each pre-deployment checklist item:
 
 - [ ] All virtual machines or servers are connected to the same virtual switch or LAN.
