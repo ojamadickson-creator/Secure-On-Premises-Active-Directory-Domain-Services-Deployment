@@ -76,10 +76,7 @@ cleanly targeting GPOs at new objects.
 
 | # | Caption | Asset path |
 |---|---|---|
-| [33](../assets/screenshots/screenshot-33.png) | ADUC showing the completed Beginningdimension OU tree | `assets/screenshots/screenshot-33.png` |
-| [34](../assets/screenshots/screenshot-34.png) | Creating the top-level OU via the New Object wizard | `assets/screenshots/screenshot-34.png` |
-| [35](../assets/screenshots/screenshot-35.png) | `redircmp` / `redirusr` command output on DC01 | `assets/screenshots/screenshot-35.png` |
-| [36](../assets/screenshots/screenshot-36.png) | New computer object landing in the Workstations OU after redirection | `assets/screenshots/screenshot-36.png` |
+See screenshots| | docs/screenshots/Phase 6 |
 
 Full mapping: [Evidence Index](evidence-index.md#phase-6--create-organizational-units).
 
