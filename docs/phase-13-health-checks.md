@@ -94,9 +94,9 @@ Restart CLIENT01 after a successful repair.
   workstation whose trust requires repair (e.g., after a DC restore), confirming the cmdlet
   returns `True` and the domain logon succeeds afterward.
 
-## Visual Evidence
 
-Full mapping: [Evidence Index](evidence-index.md#phase-13--health-checks-and-troubleshooting).
+
+
 
 ## References
 
