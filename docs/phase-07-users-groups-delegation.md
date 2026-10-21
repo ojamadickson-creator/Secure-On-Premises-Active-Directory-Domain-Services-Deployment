@@ -1,8 +1,7 @@
 # Phase 7 — User Accounts, Groups, and Delegation
 
 > Phase series: [Phase 1](phase-01-configure-dc01.md) · [Phase 2](phase-02-install-ad-ds-dns-dc01.md) · [Phase 3](phase-03-configure-ad-dns.md) · [Phase 4](phase-04-configure-dc02.md) · [Phase 5](phase-05-ad-site-topology.md) · [Phase 6](phase-06-organizational-units.md) · [Phase 7](phase-07-users-groups-delegation.md) · [Phase 8](phase-08-join-client01.md) · [Phase 9](phase-09-gpo-security-baseline.md) · [Phase 10](phase-10-windows-laps.md) · [Phase 11](phase-11-security-auditing.md) · [Phase 12](phase-12-backup-recovery.md) · [Phase 13](phase-13-health-checks.md)
-> Source: Active Directory Project Guide (compiled 25-page guide), pages 12–13.
-
+> 
 ## Objective & Scope
 
 Create standard and privileged user accounts with strict separation, build role-based security
@@ -86,12 +85,7 @@ possible.
 
 | # | Caption | Asset path |
 |---|---|---|
-| [37](../assets/screenshots/screenshot-37.png) | jdoe standard user account properties in the Users OU | `assets/screenshots/screenshot-37.png` |
-| [38](../assets/screenshots/screenshot-38.png) | adm_jdoe privileged account in the Admin > Tier0 OU | `assets/screenshots/screenshot-38.png` |
-| [39](../assets/screenshots/screenshot-39.png) | GG_* security groups created in the SecurityGroups OU | `assets/screenshots/screenshot-39.png` |
-| [40](../assets/screenshots/screenshot-40.png) | adm_jdoe membership in GG_Tier0_Admins | `assets/screenshots/screenshot-40.png` |
-| [41](../assets/screenshots/screenshot-41.png) | Delegation of Control wizard targeting GG_IT_Helpdesk | `assets/screenshots/screenshot-41.png` |
-| [42](../assets/screenshots/screenshot-42.png) | Delegated task summary — password reset permissions | `assets/screenshots/screenshot-42.png` |
+See screenshots | | docs/screenshots/Phase 7 |
 
 Full mapping: [Evidence Index](evidence-index.md#phase-7--user-accounts-groups-and-delegation).
 
