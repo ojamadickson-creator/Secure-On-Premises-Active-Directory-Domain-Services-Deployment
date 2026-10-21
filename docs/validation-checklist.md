@@ -47,7 +47,7 @@ as a working checklist.
 - [ ] LAPS authorization test passes: members of `GG_LAPS_Password_Readers` can retrieve passwords;
   standard non-privileged accounts cannot.
 - [ ] Advanced auditing is enabled on domain controllers.
-- [ ] Important security event IDs are monitored.
+- [ ] Important security event IDs are provided.
 
 ## Resilience
 
