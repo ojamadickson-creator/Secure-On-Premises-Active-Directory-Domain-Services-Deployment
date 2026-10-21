@@ -122,7 +122,7 @@ repadmin /syncall /AdeP
 
 | # | Caption | Asset path |
 |---|---|---|
-Please see the screenshots in docs/screenshots/Phase 4
+Please see the screenshots in | | docs/screenshots/Phase 4|
 Full mapping: [Evidence Index](evidence-index.md#phase-4--configure-dc02).
 
 ## References
