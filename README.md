@@ -21,8 +21,8 @@ procedures — with routine validation built around command-line diagnostics
 The design models a small organization with one headquarters site and a single routed subnet.
 **DC01** hosts the forest root domain controller with the initial FSMO roles; **DC02** provides a
 replica domain controller, DNS, and authentication redundancy; **CLIENT01** is a Windows 11
-workstation joined to the domain. An **OPNsense router/firewall** at `192.168.10.1` provides default
-gateway and NAT/internet access, while DC02 and CLIENT01 operate on the isolated internal segment.
+workstation joined to the domain. A **router** at `192.168.10.1` provides default
+gateway and Ethernet 2 provided NAT/internet access, while DC02 and CLIENT01 operate on the isolated internal segment.
 
 The build was not a straight-line run: real incidents — Kerberos clock-skew GPO failures, DNS
 forwarder timeouts, stale multi-homed adapter records, and interface binding conflicts — were
