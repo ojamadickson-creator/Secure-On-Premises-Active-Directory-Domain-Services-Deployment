@@ -100,7 +100,7 @@ cross with a query timeout error.
 
 ### Root Cause
 
-The default gateway router (OPNsense) was not operating as an active recursive DNS listener on
+The default gateway router was not operating as an active recursive DNS listener on
 port 53, causing recursive lookup attempts to hang and time out.
 
 ### Remediation
