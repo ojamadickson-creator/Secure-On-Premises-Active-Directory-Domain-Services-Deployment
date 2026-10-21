@@ -88,12 +88,7 @@ troubleshooting log for what happens when it drifts.
 
 | # | Caption | Asset path |
 |---|---|---|
-| [01](../assets/screenshots/screenshot-01.png) | Server Manager > Local Server showing computer rename to DC01 | `assets/screenshots/screenshot-01.png` |
-| [02](../assets/screenshots/screenshot-02.png) | IPv4 properties with static address 192.168.10.10 and gateway 192.168.10.1 | `assets/screenshots/screenshot-02.png` |
-| [03](../assets/screenshots/screenshot-03.png) | `ipconfig /all` output confirming static addressing on DC01 | `assets/screenshots/screenshot-03.png` |
-| [04](../assets/screenshots/screenshot-04.png) | `ping 192.168.10.1` validating gateway connectivity | `assets/screenshots/screenshot-04.png` |
-| [05](../assets/screenshots/screenshot-05.png) | Windows Update and date/time verification on DC01 | `assets/screenshots/screenshot-05.png` |
-
+Refer to phase 1 in the screenshot folder.
 Full mapping: [Evidence Index](evidence-index.md#phase-1--configure-dc01).
 
 ## References
