@@ -3,7 +3,7 @@
 <p align="center">
   <strong>Windows Server 2025 On-Premises Deployment</strong><br>
   Secure AD DS · DNS · Group Policy · Windows LAPS · Auditing · Backup · High Availability<br>
-  Portfolio Project for IT Administrator Job Applications
+  Portfolio Project for IT Administrator.
 </p>
 
 ---
