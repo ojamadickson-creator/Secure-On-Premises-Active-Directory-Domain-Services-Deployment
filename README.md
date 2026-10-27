@@ -61,6 +61,27 @@ representations of physical network topology; they use subnets, sites, and site 
 client service location and replication traffic
 ([Microsoft Learn — Designing the Site Topology](https://learn.microsoft.com/en-us/windows-server/identity/ad-ds/plan/designing-the-site-topology)).
 
+
+## Implementation Phases
+
+The build is documented across 13 implementation phases with step-by-step guides and visual proof:
+
+| Phase | Documentation Guide | Evidence / Screenshots | Focus |
+|:---:|---|:---:|---|
+| **01** | [Configure DC01](docs/phase-01-configure-dc01.md) | [Phase 1 Screenshots](docs/screenshots/Phase%201/) | Host identity, static addressing, connectivity |
+| **02** | [Install AD DS & DNS on DC01](docs/phase-02-install-ad-ds-dns-dc01.md) | [Phase 2 Screenshots](docs/screenshots/Phase%202/) | Role installation, forest promotion |
+| **03** | [Configure AD DNS](docs/phase-03-configure-ad-dns.md) | [Phase 3 Screenshots](docs/screenshots/Phase%203/) | Forwarders, reverse zone, validation |
+| **04** | [Configure DC02](docs/phase-04-configure-dc02.md) | [Phase 4 Screenshots](docs/screenshots/phase%204/) | Replica DC, cross-pointed DNS, replication health |
+| **05** | [Configure AD Site Topology](docs/phase-05-ad-site-topology.md) | [Phase 5 Screenshots](docs/screenshots/Phase%205/) | HQ site, subnet mapping, site awareness |
+| **06** | [Create Organizational Units](docs/phase-06-organizational-units.md) | [Phase 6 Screenshots](docs/screenshots/Phase%206/) | OU tree, default location redirection |
+| **07** | [Users, Groups & Delegation](docs/phase-07-users-groups-delegation.md) | [Phase 7 Screenshots](docs/screenshots/Phase%207/) | Standard/privileged accounts, role-based groups, least privilege |
+| **08** | [Join CLIENT01 to the Domain](docs/phase-08-join-client01.md) | [Phase 8 Screenshots](docs/screenshots/Phase%208/) | Client domain join and validation |
+| **09** | [Group Policy Security Baseline](docs/phase-09-gpo-security-baseline.md) | [Phase 9 Screenshots](docs/screenshots/Phase%209/) | Password/lockout policy, workstation baseline |
+| **10** | [Deploy Windows LAPS](docs/phase-10-windows-laps.md) | [Phase 10 Screenshots](docs/screenshots/Phase%2010/) | Schema extension, permissions, LAPS GPO, validation |
+| **11** | [Security Auditing](docs/phase-11-security-auditing.md) | [Phase 11 Screenshots](docs/screenshots/Phase%2011/) | Advanced audit policy, key event IDs |
+| **12** | [Backup & Recovery](docs/phase-12-backup-recovery.md) | [Phase 12 Screenshots](docs/screenshots/Phase%2012/) | Windows Server Backup, System State backups |
+| **13** | [Health Checks & Troubleshooting](docs/phase-13-health-checks.md) | — | Daily checks, DNS/replication diagnostics, trust repair, lockouts |
+
 ## Key Skills & Technologies Demonstrated
 
 | Technical area | Skills demonstrated |
