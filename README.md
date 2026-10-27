@@ -51,29 +51,10 @@ diagnosed and resolved methodically. Every incident, root cause, and fix is docu
 | Hypervisor | VirtualBox — VM appliance exports (`.ova`) used for point-in-time DC backups |
 | Client DNS | 192.168.10.10 (preferred), 192.168.10.11 (alternate) |
 
-```text
-Internet
-   |
-Router
-192.168.10.1
-   |
-------------------------------------------------
-|                HQ AD Site                     |
-|              192.168.10.0/24                  |
-|                                               |
-| DC01                          DC02            |
-| Windows Server 2025           Windows Server 2025
-| 192.168.10.10                 192.168.10.11    |
-| AD DS / DNS / GC              AD DS / DNS / GC |
-| Initial FSMO roles            Replica DC      |
-|       <--- AD Replication --->                |
-|                                               |
-| CLIENT01                                      |
-| Windows 11                                    |
-| 192.168.10.20                                 |
-| DNS: DC01 and DC02                            |
-------------------------------------------------
-```
+##Lab Architecture
+<img width="2816" height="1536" alt="ad beginningdimension-Lab-Architecture" src="https://github.com/user-attachments/assets/d9e99db0-dc0b-464d-b13f-77224a806056" />
+
+
 
 The HQ site represents the organization's main on-premises LAN. AD sites are logical
 representations of physical network topology; they use subnets, sites, and site links to guide
