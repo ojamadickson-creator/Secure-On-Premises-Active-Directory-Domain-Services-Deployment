@@ -1,5 +1,3 @@
-# Enterprise Active Directory Deployment & Security Hardening Lab
-
 
 # Enterprise Active Directory Deployment & Security Hardening Lab
 
