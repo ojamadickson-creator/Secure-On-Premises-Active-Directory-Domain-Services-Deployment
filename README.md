@@ -1,5 +1,12 @@
 # Enterprise Active Directory Deployment & Security Hardening Lab
 
+
+# Enterprise Active Directory Deployment & Security Hardening Lab
+
+[![OS - Windows Server 2025](https://img.shields.io/badge/OS-Windows_Server_2025-0078D6?style=flat&logo=windows&logoColor=white)](https://www.microsoft.com/evalcenter/evaluate-windows-server-2025)
+[![Domain - ad.beginningdimension.com](https://img.shields.io/badge/Domain-ad.beginningdimension.com-002050?style=flat&logo=active-directory&logoColor=white)](#)
+[![Security - Hardened Baseline](https://img.shields.io/badge/Security-Hardened_Baseline-2EA44F?style=flat&logo=shield&logoColor=white)](#)
+[![Focus - IT_Administrator_Portfolio](https://img.shields.io/badge/Focus-IT_Administrator_Portfolio-8A2BE2?style=flat)](#)
 <p align="center">
   <strong>Windows Server 2025 On-Premises Deployment</strong><br>
   Secure AD DS · DNS · Group Policy · Windows LAPS · Auditing · Backup · High Availability<br>
